@@ -1,0 +1,29 @@
+body{
+	background: #333;
+}
+.container{
+	width: 900px;
+	margin: 0px auto;
+}
+#current-img{
+	width: 100%;
+}
+.img-show{
+	padding: 10px;
+	border:2px solid white;
+}
+.img-group{
+	text-align: center;
+	padding: 10px;
+	border:1px solid white;
+}
+.img-group img{
+	width: 15%;
+	margin-right:10px;
+}
+.img-group img:last-child{
+	margin-right: 0;
+}
+.img-blur{
+	opacity: 0.3;
+}
